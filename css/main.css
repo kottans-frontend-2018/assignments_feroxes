@@ -73,27 +73,49 @@ header {
 	width: 66%;
 	vertical-align: middle;
 	border-right: 2px solid #d0d5e5;
+	display: flex;
+	flex-direction: row;
 }
 
 .details {
 	width: 70%;
-	display: inline-block;
+
 
 }
 .details p {
 	display: inline-block;
 }
 .blank {
-	padding-left: 56px;
+	padding-left: 58px;
 	text-transform: uppercase;
 	font-weight: bold;
-	background: url(https://png.icons8.com/material/26/6c748d/file.png) no-repeat 25px 15px;
+	background: url(https://png.icons8.com/material/26/6c748d/file.png) no-repeat 25px 27px;
 	background-size: 3.5%;
 	color: #6c748d;
+	padding-top: 15px;
 }
 
-.list {
-	margin-left: 20px;
+.list_table {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.list_table th{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	color: #6c748d;
+	padding-right: 55px;
+}
+
+.list_table td {
+	padding-right: 55px;
+	font-size: 14px;
+}
+
+
+/*.list_table {
+	padding-left: 20px;
 }
 .list li{
 	display: inline-block;
@@ -108,6 +130,7 @@ header {
 	color: #6c748d;
 
 }
+*/
 .detBut {
 	width: 25%;
 	display: inline-block;
@@ -176,7 +199,7 @@ header {
 
 /*----------Select----------*/
 .select {
-	
+
 	background: #fff;
 	text-align: center;
 	height: 420px;
@@ -191,7 +214,7 @@ header {
 	letter-spacing: 4px;
 	color: #7a849e;
 
-	
+
 }
 .form {
 	padding-top: 40px;
@@ -315,7 +338,7 @@ input[name=radio1]:checked + .select-wrapper:after {
 	margin-left: 14%;
 	margin-top: 5%;
 	padding: 40px;
-	text-align: left; 
+	text-align: left;
 	width: 74%;
 }
 
@@ -357,7 +380,7 @@ td:first-child {
 }
 .from {
 	display: flex;
-	flex-direction: row;	 
+	flex-direction: row;
 }
 
 .form_select {
@@ -414,8 +437,8 @@ td:first-child {
 }
 .to {
 	display: flex;
-	flex-direction: row;	 
-} 
+	flex-direction: row;
+}
 .from {
 	padding-bottom: 35px;
 }
@@ -499,7 +522,7 @@ td:first-child {
 	border-radius: 5px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 
 
 }
@@ -651,18 +674,18 @@ a {
 	text-decoration: none;
 }
 a:link {
-  color: #a2a8c3; 
-  border-bottom: 1px solid; 
+  color: #a2a8c3;
+  border-bottom: 1px solid;
 }
 a:visited {
   color: #a2a8c3;
 }
 a:hover {
-  color: #a2a8c3; 
-  
+  color: #a2a8c3;
+
 }
 a:active {
-  color: #a2a8c3; 
+  color: #a2a8c3;
   border-bottom: 1px solid;
 }
 .sign_form {
@@ -848,7 +871,7 @@ footer {
 
 .main_office {
 	background: url(https://png.icons8.com/android/32/c3c9e9/compass.png) no-repeat 165px 8px;
-	padding-left: 200px; 
+	padding-left: 200px;
 	background-size: 5%;
 	width: 18%;
 
@@ -861,14 +884,14 @@ footer {
 	height: 30px;
 	vertical-align: middle;
 }
-.adress p {	
+.adress p {
 	font-size: 10px;
 	line-height: 2;
 }
 
 .connect {
 	background: url(https://png.icons8.com/ios/32/c3c9e9/share-2-filled.png) no-repeat 25px 10px;
-	padding-left: 50px; 
+	padding-left: 50px;
 	background-size: 5%;
 	width: 18%;
 }
@@ -892,17 +915,17 @@ footer {
 	line-height: 1.5;
 }
 .connect li:first-child {
-	background: url(https://png.icons8.com/ios/32/c3c9e9/facebook-circled-filled.png) no-repeat 0px 0px; 
+	background: url(https://png.icons8.com/ios/32/c3c9e9/facebook-circled-filled.png) no-repeat 0px 0px;
 	background-size: 5%;
 }
 
 .connect li:nth-child(2) {
-	background: url(https://png.icons8.com/ios/32/c3c9e9/twitter-circled-filled.png) no-repeat 0px 0px; 
+	background: url(https://png.icons8.com/ios/32/c3c9e9/twitter-circled-filled.png) no-repeat 0px 0px;
 	background-size: 5%;
 }
 
 .connect li:nth-child(3) {
-	background: url(https://png.icons8.com/ios/32/c3c9e9/linkedin-circled-filled.png) no-repeat 0px 0px; 
+	background: url(https://png.icons8.com/ios/32/c3c9e9/linkedin-circled-filled.png) no-repeat 0px 0px;
 	background-size: 5%;
 }
 
