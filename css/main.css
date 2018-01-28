@@ -495,22 +495,28 @@ td:first-child {
 	padding-left: 180px;
 }
 
+.form_tone input {
+	opacity: 0;
+	position: absolute;
+	top: 5px;
+}
+
 .select-tone p {
 	padding-top: 12px;
 	padding-left: 25px;
 }
 .select-tone1 {
-	height: 70px;
+	height: 65px;
 	background: url(https://png.icons8.com/metro/32/8d95b6/chat.png)no-repeat 35px 10px;
 	background-size: 10%;
 }
 .select-tone2 {
-	height: 70px;
+	height: 65px;
 	background: url(https://png.icons8.com/windows/32/8d95b6/suitcase.png)no-repeat 35px 10px;
 	background-size: 10%;
 }
 .select-tone3 {
-	height: 70px;
+	height: 65px;
 	background: url(https://png.icons8.com/metro/32/8d95b6/megaphone.png)no-repeat 35px 10px;
 	background-size: 10%;
 }
@@ -745,6 +751,12 @@ a:active {
 .payment {
 	padding-top: 40px;
 	padding-left: 180px;
+}
+
+.payment input {
+	position: absolute;
+	top: 50px;
+	opacity: 0;
 }
 
 .select-payment {
