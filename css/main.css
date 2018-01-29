@@ -3,7 +3,7 @@
 	border: 1px solid black;
 
 }
-*/	
+*/
 
 body {
 	background: #ebedf4;
@@ -226,9 +226,13 @@ header {
 
 .select-wrapper {
 	height: 170px;
+	width: 325px;
 	padding-top: 20px;
-
+	position: absolute;
+	left: 0px;
 }
+
+
 
 .form label{
 	position: relative;
@@ -533,24 +537,23 @@ td:first-child {
 	top: 5px;
 }
 
-.select-tone p {
-	padding-top: 12px;
-	padding-left: 25px;
+.select-tone {
+	position: absolute;
+	width: 240px;
+	height: 65px;
+	left: 0px;
+	line-height: 70px;
+
 }
 .select-tone1 {
-	height: 65px;
-	background: url(https://png.icons8.com/metro/32/8d95b6/chat.png)no-repeat 35px 10px;
-	background-size: 10%;
+	background: url(https://png.icons8.com/metro/32/8d95b6/chat.png)no-repeat 20px 20px;
 }
 .select-tone2 {
-	height: 65px;
-	background: url(https://png.icons8.com/windows/32/8d95b6/suitcase.png)no-repeat 35px 10px;
-	background-size: 10%;
+	background: url(https://png.icons8.com/windows/32/8d95b6/suitcase.png)no-repeat 20px 20px;
+
 }
 .select-tone3 {
-	height: 65px;
-	background: url(https://png.icons8.com/metro/32/8d95b6/megaphone.png)no-repeat 35px 10px;
-	background-size: 10%;
+	background: url(https://png.icons8.com/metro/32/8d95b6/megaphone.png)no-repeat 20px 20px;
 }
 
 .form_tone label{
@@ -792,6 +795,9 @@ a:active {
 }
 
 .select-payment {
+	position: absolute;
+	left: 0px;
+	width: 265px;
 	height: 90px;
 }
 
