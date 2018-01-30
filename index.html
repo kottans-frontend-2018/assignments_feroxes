@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
+</head>
+<body>
+<header>
+	<div class="col-3">
+		<button class="main_btn goBack">Go back</button>
+	</div>
+	<div class="col-3">
+		<p class="logo"><img src="css/img/kottans.png" alt=""></p>
+	</div>
+	<div class="col-3 sign">
+		<button class="main_btn btn_sgn">Sign In</button>
+	</div>
+</header>
+
+
+<div class="yourOrder">
+	<div class="col-6">
+		<div class="details">
+			<div class="blank"><!--<p><img src="https://png.icons8.com/material/26/6c748d/file.png"></p>--> <p>Your order</p></div>
+			<div class="list_table">
+				<table>
+					<tr>
+						<th>Items</th>
+						<th>Details</th>
+						<th>Price</th>
+						<th>Delivery</th>
+					</tr>
+					<tr>
+						<td>2 documents</td>
+						<td>2 languages</td>
+						<td>$ 696.06</td>
+						<td>48 hours*</td>
+					</tr>
+				</table>
+				<!-- <ul class="list">
+					<li><span>Items</span></br></br>2 documents</li>
+					<li><span>Details</span></br></br>2 languages</li>
+					<li><span>Price</span></br></br>$ 696.06</li>
+					<li><span>Delivery</span></br></br>48 hours*</li>
+				</ul> -->
+			</div>
+		</div>
+		<div class="detBut">
+		<button class="act_btn">Place order</button>
+		<button class="main_btn print">Print a Quote</button>
+		</div>
+	</div>
+	<div class="col-3">
+		<div class="help1"><!--<p><img src="https://png.icons8.com/windows/26/767d94/lifebuoy.png"></p>--><p>Help center</p></div>
+		<div class="help">
+			<p>If you need assistance while placing your order, contact one of our beloved Project Manager by phone or email.</p>
+			<p><a href="tel:+9710555555">+971(0) 555 555</a></p>
+			<p><a href="mailto:help@qtest.com"> help@qtest.com</a></p>
+		</div>
+	</div>
+</div>
+<form class="main">
+	<section class="select">
+		<h3>Select what you want to translate</h3>
+			<div class="form">
+				<label for="website">
+					<input type="radio" required name="radio1" id="website" value="website">
+						<span class="select-wrapper">
+							<img src="css/img/website.png" alt="">
+						</span>
+				</label>
+				<label for="document">
+					<input type="radio" required  name="radio1" id="document" value="document">
+						<span class="select-wrapper">
+							<img src="css/img/documents.png" alt="">
+						</span>
+				</label>
+				<label for="social">
+					<input type="radio" required name="radio1" id="social" value="social">
+						<span class="select-wrapper">
+							<img src="css/img/social.png" alt="">
+						</span>
+				</label>
+			</div>
+	</section>
+	<section class="one">
+		<div class="upload">
+			<p class="cirkle">1</p>
+			<h3>Upload your documents</h3>
+			<p class="types">(Doc, Docx, Text, PDF, Markdown)</p>
+
+		</div>
+			<div class="file-upload">
+     		<label>
+     			<input type="file" name="file">
+     			<span>Upload a new file</span>
+     		</label>
+		</div>
+		<table>
+			<tr>
+				<th>File name</th>
+				<th>Flie size</th>
+				<th>Number of words</th>
+				<th>Remove</th>
+			</tr>
+			<tr>
+				<td class="doc">business_operations.docx</td>
+				<td>78kb</td>
+				<td>842</td>
+				<td class="trash"></td>
+			</tr>
+			<tr>
+				<td class="doc">business_financial.docx</td>
+				<td>26kb</td>
+				<td>2,326</td>
+				<td class="trash"></td>
+			</tr>
+		</table>
+	</section>
+	<section class="two">
+		<div class="upload">
+			<p class="cirkle2">2</p>
+			<h3>Choose youre languages pairings</h3>
+		</div>
+		<div class="language">
+			<div class="from">
+			<p>From</p>
+			<div class="form_select">
+				<select name="capacity" size="1">
+					<option selected="selected">English</option>
+		                <option>Ukrainian</option>
+		                <option>Arabic</option>
+						<option>Kurdish</option>
+				</select>
+			</div>
+			</div>
+			<div class="to">
+			<p>To</p>
+			<div class="form_select">
+			<select name="capacity" id="Arabic" class="form-control" size="1">
+				<option selected="selected">Arabic</option>
+	                <option>Ukrainian</option>
+	                <option>English</option>
+					<option>Kurdish</option>
+			</select>
+			</div>
+			<div class="form_select form_select2">
+			<select name="capacity" id="Ukrainian" class="form-control" size="1">
+				<option selected="selected">Ukrainian</option>
+	                <option>English</option>
+	                <option>Arabic</option>
+					<option>Kurdish</option>
+			</select>
+			</div>
+			<div class="delate">
+
+			</div>
+			<div>
+				<button type="button" class="main_btn add">+ Add</button>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="threeFour">
+	<div class="three">
+		<div class="upload">
+			<p class="cirkle2">3</p>
+			<h3>Select your desired tone</h3>
+		</div>
+		<div>
+			<div class="form_tone">
+				<label for="friendly">
+					<input type="radio" required name="radio2" id="friendly" value="friendly">
+						<span class="select-tone select-tone1">
+							Friendly / Casual
+						</span>
+				</label>
+				<label for="pro">
+					<input type="radio" required name="radio2" id="pro" value="pro">
+						<span class="select-tone select-tone2">
+							Corporate / Pro
+						</span>
+				</label>
+				<label for="media">
+					<input type="radio" required name="radio2" id="media" value="media">
+						<span class="select-tone select-tone3">
+							Media / Formal
+						</span>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="four">
+		<div class="upload2">
+			<p class="cirkle2">4</p>
+			<h3>Tells us how urgent this job is</h3>
+		</div>
+		<input type="range" min="0" max="100" step="50">
+		<div class="timeline">
+			<p>I got time</p>
+			<p>Average</p>
+			<p>Yesterday</p>
+		</div>
+		<div class="info">
+			<div class="timeline_hdr"><p>Timeline info</p></div>
+			<div class="timeline_disc"><p>With an <span>average</span> timeline set up, our expert translator can take a reasonable amount of time perfecting your translation</p></div>
+		</div>
+	</div>
+	</section>
+	<section class="five">
+		<div class="upload">
+			<p class="cirkle2">5</p>
+			<h3>Sing up and choose a payment method</h3>
+		</div>
+		<div class="have_acc">
+			<p>Already have an account with us? <a href="#">Sing in</a>.</p>
+		</div>
+		<div class="sign_form">
+			<div class="f_name">
+			<p>Full name</p>
+			<input type="text" name="name" maxlength="40" class="" required>
+			<p>Email adress</p>
+			<input type="text" name="name" maxlength="40" class="" required>
+			</div>
+			<div class="pass">
+			<p>Choose a password</p>
+			<input type="password" name="name" maxlength="40" class="" required>
+			</div>
+		</div>
+		<div class="payment">
+				<label for="card">
+					<input type="radio" required name="radio3" id="card" value="card">
+						<span class="select-payment">
+							<img src="css/img/card.png" alt="">
+						</span>
+				</label>
+				<label for="paypal">
+					<input type="radio" required name="radio3" id="paypal" value="paypal">
+						<span class="select-payment">
+							<img src="css/img/paypal.png" alt="">
+						</span>
+				</label>
+				<label for="amazon">
+					<input type="radio" required name="radio3" id="amazon" value="amazon">
+						<span class="select-payment">
+							<img src="css/img/amazon.png" alt="">
+						</span>
+				</label>
+		</div>
+		<div class="sign_form card_form">
+			<div class="f_name card_number">
+			<p>Card number</p>
+			<input type="text" name="name" maxlength="16" class="" required>
+			</div>
+			<div class="f_name ex_date">
+			<p>Expiry date</p>
+			<input type="text" name="name" maxlength="8" class="" required placeholder="DD / MM / YY">
+			</div>
+			<div class="f_name code">
+			<p>code</p>
+			<input type="password" name="name" maxlength="3" class="" required>
+			</div>
+		</div>
+		<div class="last_step">
+			<input id="checkBox" type="checkbox">
+			<p>I agree to the <a href="#">Terms &#38; Condiions</a></p>
+			<button class="act_btn" type="submit">Place order</button>
+			<button class="main_btn print" type="button">Print a Quote</button>
+		</div>
+	</section>
+</form>
+
+<footer>
+	<div class="what_we">
+		<div class="heart"> <p>What we do</p></div>
+		<div class="what_we_disc">
+			<p>We provide a full range of language services including content development, document, website and social media accounts translations.</p>
+		</div>
+	</div>
+	<div class="main_office">
+		<div>
+			<p>Our main office</p>
+		</div>
+		<div class="adress">
+			<p>Dubai, UAE <br>P.O. Box: 502735<br>Phone: <a href="tel:+971044278128">+971 (0) 44278128</a></p>
+		</div>
+	</div>
+	<div class="connect">
+		<div>
+			<p>Connect with us</p>
+		</div>
+		<div>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Linkedin</li>
+			</ul>
+		</div>
+	</div>
+	<div class="finish">
+		<img src="css/img/kottans.png" alt="">
+	</div>
+</footer>
+
+</body>
+</html>
